@@ -1,28 +1,22 @@
-import React from 'react';
-import "./App.css";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Login from './Pages/Auth/Login';
-import Register from './Pages/Auth/Register';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Pages/Home/Home';
-import SetAvatar from './Pages/Avatar/setAvatar';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { lazy, Suspense } from "react";
 
+const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
-
-const App = () => {
+function App() {
   return (
-    
-      <div className="App" style={{backgroundColor:'grey'}}>
-      <BrowserRouter>
+    <Router>
+      <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/setAvatar" element={<SetAvatar />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
-      </div>
-  )
+      </Suspense>
+    </Router>
+  );
 }
 
-export default App
+export default App;
