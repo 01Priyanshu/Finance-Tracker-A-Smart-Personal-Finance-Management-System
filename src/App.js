@@ -20,3 +20,26 @@ function App() {
 }
 
 export default App;
+
+import { UserProvider } from "./context/UserContext";
+
+function App() {
+  return (
+    <UserProvider>
+      {/* Your Components */}
+    </UserProvider>
+  );
+}
+
+
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./theme";
+
+function App() {
+  return (
+    <ThemeProvider theme={theme}>
+      {/* Your Components */}
+    </ThemeProvider>
+  );
+}
+
