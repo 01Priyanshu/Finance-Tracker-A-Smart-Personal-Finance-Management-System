@@ -8,7 +8,9 @@ The Personal Finance Tracker is a simple and intuitive application designed to h
 
 ## Features
 
-- **Landing Page:**  
+- **Landing Page:**
+- ![image](https://github.com/user-attachments/assets/5b0e0b34-6c95-4c0d-a9cd-a64bd8f2684e)
+
   A welcoming page with links to the Login and Register pages.
   
 - **Login Page:**  
