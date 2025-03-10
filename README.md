@@ -4,13 +4,11 @@
 
 The Personal Finance Tracker is a simple and intuitive application designed to help users manage their financial transactions. Built using the MERN stack (MongoDB, Express, React, Node.js), this project was developed as part of a task for a MERN stack internship application in a day. The application focuses on providing users with a straightforward interface to track income, expenses, and savings. It includes a dashboard for quick insights, a calendar to visualize expenses, and forms for creating and managing financial records.
 
-[Gratitude Grove - Backend](https://github.com/Varunkumar0812/Finance-Tracker-backend)
+[Gratitude Grove - Backend](https://github.com/01Priyanshu/Finance-Tracker-full-stack)
 
 ## Features
 
-- **Landing Page:**
-- ![image](https://github.com/user-attachments/assets/5b0e0b34-6c95-4c0d-a9cd-a64bd8f2684e)
-
+- **Landing Page:**  
   A welcoming page with links to the Login and Register pages.
   
 - **Login Page:**  
