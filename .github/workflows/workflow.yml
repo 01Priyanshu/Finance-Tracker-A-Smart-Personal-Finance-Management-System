@@ -1,63 +1,42 @@
 # The name of the workflow.
-name: CI/CD Pipeline for Finance Tracker
+name: Ci/cd pipeline for spend smart
 
-# Run the workflow when code is pushed to the main branch
+# Run the workflow when code is pushed to the main branch 
 on:
   push:
     branches:
       - main
 
+# This is the workflow that is being run.
+# ⚠️⚠️⚠️ NOTE - Backend is deployed on render.com. So, here we are only deplying frontend to Vercel. ⚠️⚠️⚠️
 jobs:
   build-frontend:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
-      - name: Verify frontend directory exists  # ✅ Debug Step
-        run: ls -R frontend || echo "❌ Frontend directory not found!"
-
-      - name: Install dependencies
+      - name: Install dependencies of frontend
         run: |
           cd frontend
           npm install
-
-      - name: Build frontend
-        run: |
-          cd frontend
-          npm run build || echo "❌ Build failed!"
-
-      - name: Verify build output  # ✅ Debug Step
-        run: ls -R frontend/.next || echo "❌ Next.js build directory missing!"
-
-      - name: Upload build artifact
-        if: success()  # ✅ Only upload if the build succeeds
-        uses: actions/upload-artifact@v4
-        with:
-          name: frontend-build
-          path: frontend/.next  # ✅ Ensure this path is correct
 
   deploy-frontend:
     runs-on: ubuntu-latest
     needs: build-frontend
 
+    defaults:
+      run:
+        working-directory: ./frontend
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: frontend-build
-          path: frontend/.next
-
-      - name: Verify downloaded artifact  # ✅ Debug Step
-        run: ls -R frontend/.next || echo "❌ Downloaded artifact missing!"
+      - name: Checkout
+        uses: actions/checkout@v2
 
       - name: Deploy frontend to Vercel
         uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID}}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}}
