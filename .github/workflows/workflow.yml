@@ -26,10 +26,10 @@ jobs:
           npm run build
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # ✅ Updated to v4
         with:
           name: frontend-build
-          path: frontend/.next  # Make sure this path is correct for your Next.js app
+          path: frontend/.next  # Ensure this path is correct for your Next.js app
 
   deploy-frontend:
     runs-on: ubuntu-latest
@@ -41,7 +41,7 @@ jobs:
 
     steps:
       - name: Download build artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4  # ✅ Updated to v4
         with:
           name: frontend-build
           path: frontend/.next
