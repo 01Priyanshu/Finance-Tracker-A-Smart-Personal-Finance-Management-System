@@ -31,7 +31,7 @@ Create a `.env` file based of `env.example` in the backend directory and save it
 ```bash
 # .env.example
 PORT=3000
-MONGO_URI=mongodb://localhost:27017/spend_smart
+MONGO_URI=mongodb://localhost:27017/finance_tracker
 JWT_SECRET_KEY=your_secret_key_here
 NODE_ENV=development
 ENCRYPTION_SALT=10
