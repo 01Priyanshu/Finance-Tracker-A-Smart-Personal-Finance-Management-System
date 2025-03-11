@@ -61,13 +61,4 @@ npm run dev
 
 <hr/>
 
-## License:
 
-- Finance Tracker is licensed under the [MIT License](../LICENSE).
-
-<hr/>
-
-## For more Content
-
-- For feedback and support, email us at saxenashourya000@gmail.com 📧
-- Follow me on [Linkedin](https://www.linkedin.com/in/shouryasaxena) for updates. 🔗
