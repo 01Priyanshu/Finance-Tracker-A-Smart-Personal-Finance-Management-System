@@ -1,16 +1,19 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': '/src', // Ensure this alias points to your src directory
+      '@': path.resolve(__dirname, './src'), // Alias for the /src directory
     },
   },
   build: {
     rollupOptions: {
-      input: '/index.html', // Ensure Vite correctly identifies entry point
+      input: {
+        main: path.resolve(__dirname, 'index.html'), // Explicitly define the entry point
+      },
     },
   },
 });
