@@ -1,12 +1,12 @@
-# Spend Smart Frontend
+# Finance Tracker Frontend
 
-Welcome to the frontend repository of Spend Smart - your ultimate tool for managing your finances effortlessly. This repository contains all the frontend code necessary to interact with the Spend Smart backend and provide users with a seamless financial management experience.
+Welcome to the frontend repository of Finance Tracker - your ultimate tool for managing your finances effortlessly. This repository contains all the frontend code necessary to interact with the Finance Tracker backend and provide users with a seamless financial management experience.
 
 <hr/>
 
 ## Getting Started
 
-Follow these steps to set up the Spend Smart frontend on your local machine:
+Follow these steps to set up the Finance Tracker frontend on your local machine:
 
 ### Prerequisites
 
@@ -16,7 +16,7 @@ Follow these steps to set up the Spend Smart frontend on your local machine:
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/SaxenaShourya/spend-smart.git
+git clone https://github.com/01Priyanshu/Finance-Tracker-A-Smart-Personal-Finance-Management-System.git
 ```
 
 ### Frontend Setup
@@ -39,7 +39,7 @@ npm install
 npm run dev
 ```
 
-- The development server will start running at http://localhost:8080, and you can access Spend Smart in your web browser.
+- The development server will start running at http://localhost:8080, and you can access Finance Tracker in your web browser.
 
 <hr/>
 
@@ -63,7 +63,7 @@ npm run dev
 
 ## License:
 
-- Spend Smart is licensed under the [MIT License](../LICENSE).
+- Finance Tracker is licensed under the [MIT License](../LICENSE).
 
 <hr/>
 
