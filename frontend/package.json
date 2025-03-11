@@ -1,10 +1,10 @@
 {
-  "name": "spend-smart-frontend",
+  "name": "finance-tracker-frontend",
   "private": true,
   "version": "1.0.0",
   "keywords": [
-    "spend-smart",
-    "spend-smart-frontend",
+    "finance-tracker",
+    "finance-tracker-frontend",
     "finance",
     "expense",
     "income",
@@ -15,7 +15,7 @@
   ],
   "author": "Shourya Saxena",
   "license": "MIT",
-  "description": "Spend Smart is a user-friendly platform designed to streamline your financial management effortlessly. With Spend Smart, you can easily track expenses, manage income, and stay on top of your finances effortlessly. Easily add transactions,and navigate your dashboard with ease. Take control of your finances with Spend Smart.",
+  "description": "finance tracker is a user-friendly platform designed to streamline your financial management effortlessly. With finance tracker, you can easily track expenses, manage income, and stay on top of your finances effortlessly. Easily add transactions,and navigate your dashboard with ease. Take control of your finances with finance tracker.",
   "type": "module",
   "scripts": {
     "dev": "vite",
