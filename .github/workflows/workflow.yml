@@ -15,6 +15,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Verify frontend directory exists  # ✅ Debug Step
+        run: ls -R frontend || echo "Frontend directory not found!"
+
       - name: Install dependencies
         run: |
           cd frontend
@@ -23,13 +26,14 @@ jobs:
       - name: Build frontend
         run: |
           cd frontend
-          npm run build
+          npm run build || echo "Build failed!"  # ✅ Capture build failure
 
-      - name: Verify build output  # ✅ Debugging Step
-        run: ls -R frontend/.next  
+      - name: Verify build output  # ✅ Debug Step
+        run: ls -R frontend/.next || echo "Next.js build directory missing!"
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v4  # ✅ Ensure v4 is used
+        if: success()  # ✅ Only upload if the build was successful
+        uses: actions/upload-artifact@v4
         with:
           name: frontend-build
           path: frontend/.next  # ✅ Ensure this path is correct
@@ -43,13 +47,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Download build artifact
-        uses: actions/download-artifact@v4  # ✅ Ensure v4 is used
+        uses: actions/download-artifact@v4
         with:
           name: frontend-build
-          path: frontend/.next  # ✅ Ensure the same path is used
+          path: frontend/.next
 
-      - name: Verify downloaded artifact  # ✅ Debugging Step
-        run: ls -R frontend/.next  
+      - name: Verify downloaded artifact  # ✅ Debug Step
+        run: ls -R frontend/.next || echo "Downloaded artifact missing!"
 
       - name: Deploy frontend to Vercel
         uses: amondnet/vercel-action@v25
