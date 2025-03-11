@@ -1,12 +1,12 @@
-# Spend Smart Backend
+# Finance Tracker Backend
 
-Welcome to the backend repository of Spend Smart - your go-to platform for effortless financial management. This repository contains all the backend code necessary to power the Spend Smart application.
+Welcome to the backend repository of Finance Tracker - your go-to platform for effortless financial management. This repository contains all the backend code necessary to power the Finance Tracker application.
 
 <hr/>
 
 ## Getting Started
 
-Follow these steps to set up the Spend Smart backend on your local machine:
+Follow these steps to set up the Finance Tracker backend on your local machine:
 
 ### Prerequisites
 
@@ -17,7 +17,7 @@ Follow these steps to set up the Spend Smart backend on your local machine:
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/SaxenaShourya/spend-smart.git
+git clone https://github.com/01Priyanshu/Finance-Tracker-A-Smart-Personal-Finance-Management-System.git
 ```
 
 ### Backend Setup
@@ -61,7 +61,7 @@ npm install
 npm run dev
 ```
 
-- The development server will start running at http://localhost:3000, and you can access Spend Smart's backend routes from there.
+- The development server will start running at http://localhost:3000, and you can access Finance Tracker's backend routes from there.
 
 <hr/>
 
@@ -194,13 +194,6 @@ DELETE /api/v1/expenses/:id
 
 <hr/>
 
-## License:
 
-- Spend Smart is licensed under the [MIT License](../LICENSE).
 
-<hr/>
 
-## For more Content
-
-- For feedback and support, email us at saxenashourya000@gmail.com 📧
-- Follow me on [Linkedin](https://www.linkedin.com/in/shouryasaxena) for updates. 🔗
