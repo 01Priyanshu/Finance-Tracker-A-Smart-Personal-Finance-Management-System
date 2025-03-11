@@ -1,5 +1,5 @@
 # The name of the workflow.
-name: CI/CD Pipeline for Spend Smart
+name: CI/CD Pipeline for Finance Tracker
 
 # Run the workflow when code is pushed to the main branch
 on:
@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: |
@@ -25,26 +25,31 @@ jobs:
           cd frontend
           npm run build
 
+      - name: Verify build output  # ✅ Debugging Step
+        run: ls -R frontend/.next  
+
       - name: Upload build artifact
-        uses: actions/upload-artifact@v4  # ✅ Updated to v4
+        uses: actions/upload-artifact@v4  # ✅ Ensure v4 is used
         with:
           name: frontend-build
-          path: frontend/.next  # Ensure this path is correct for your Next.js app
+          path: frontend/.next  # ✅ Ensure this path is correct
 
   deploy-frontend:
     runs-on: ubuntu-latest
     needs: build-frontend
 
-    defaults:
-      run:
-        working-directory: ./frontend
-
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Download build artifact
-        uses: actions/download-artifact@v4  # ✅ Updated to v4
+        uses: actions/download-artifact@v4  # ✅ Ensure v4 is used
         with:
           name: frontend-build
-          path: frontend/.next
+          path: frontend/.next  # ✅ Ensure the same path is used
+
+      - name: Verify downloaded artifact  # ✅ Debugging Step
+        run: ls -R frontend/.next  
 
       - name: Deploy frontend to Vercel
         uses: amondnet/vercel-action@v25
