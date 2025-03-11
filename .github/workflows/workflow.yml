@@ -1,7 +1,7 @@
 # The name of the workflow.
 name: Ci/cd pipeline for spend smart
 
-# Run the workflow when code is pushed to the main branch
+# Run the workflow when code is pushed to the main branch 
 on:
   push:
     branches:
