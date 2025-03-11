@@ -3,10 +3,6 @@
 </p>
 <h1 align="center">Finance Tracker - Effortless Financial Management</h1>
 
-<h2 align="center">
-  <a href="https://spend-smart-dev.vercel.app">Explore the Project Live!</a>
-</h2>
-
 <hr/>
 
 Finance Tracker is your go-to platform for effortless financial management. Track expenses, manage income, and stay on top of your finances with ease. Easily add transactions, and navigate your dashboard with ease. Take control of your finances with Finance Tracker.
