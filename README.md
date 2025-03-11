@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Finance-Tracker-A-Smart-Personal-Finance-Management-System</h1>
 
-<img src="frontend/src/assets/dashboard.webp" />
+
 
 <h2 align="center">
   <a href="https://spend-smart-dev.vercel.app">Explore the Project Live!</a>
