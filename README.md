@@ -101,7 +101,7 @@ During the development of Finance Tracker, I gained valuable experience in sever
 - **State Management** 🔄: I utilized Redux for state management in the frontend, enabling efficient data flow and ensuring consistency across the application.
 - **Deployment** 🚀: I gained experience in deploying web applications, learning how to deploy both the frontend and backend components to cloud platforms like Vercel, Docker.
 - **Agile Development** 🔄: I practiced Agile development methodologies throughout the project, including iterative development, continuous integration, and frequent testing.
-- **UI/UX Design** 🎨: I focused on creating an intuitive and user-friendly interface for Finance Tracker, prioritizing usability and accessibility to enhance the overall user experience.
+- **UI/UX Design** 🎨: I focused on creating an intuitive and user-friendly interface for Finance Tracker, prioritizing usability and accessibility to enhance the overall user experience.   
 
 By working on Finance Tracker, I not only enhanced my technical skills but also gained valuable insights into the process of developing a real-world web application from concept to completion.
 
