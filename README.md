@@ -91,7 +91,7 @@ npm run dev
 
 ## Experience
 
-During the development of Finance Tracker, I gained valuable experience in several key areas:
+During the development of Finance Tracker, I gained valuable experience in several key areas:   
 
 - **Full-Stack Development** 💻: I learned how to develop both frontend and backend components of a web application, enabling me to create a seamless user experience from start to finish.
 - **React.js** ⚛️: I honed my skills in React.js, leveraging its component-based architecture to build dynamic and interactive user interfaces.
