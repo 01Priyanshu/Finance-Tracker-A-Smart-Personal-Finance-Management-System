@@ -83,7 +83,7 @@ npm run setup
 
 2. Start the development servers for both frontend and backend
 
-```bash
+```bash  
 npm run dev
 ```
 
