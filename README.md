@@ -55,7 +55,7 @@ git clone https://github.com/01Priyanshu/Finance-Tracker-A-Smart-Personal-Financ
 Create a `.env` file based of `env.example` in the backend directory and save it as .env.
    
 ```bash
-cd backend
+cd backend  
 ```
 
 #### Example .env file
