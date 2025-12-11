@@ -75,7 +75,7 @@ EMAIL_PASS=your_email_app_password_here
 
 To install dependencies and start the development servers for both frontend and backend, run the following commands:
 
-1. Install dependencies for both frontend and backend
+1. Install dependencies for both frontend and backend  
 
 ```bash
 npm run setup
