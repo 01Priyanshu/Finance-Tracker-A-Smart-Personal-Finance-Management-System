@@ -81,7 +81,7 @@ To install dependencies and start the development servers for both frontend and 
 npm run setup
 ```
 
-2. Start the development servers for both frontend and backend
+2. Start the development servers for both frontend and backend  
 
 ```bash  
 npm run dev  
