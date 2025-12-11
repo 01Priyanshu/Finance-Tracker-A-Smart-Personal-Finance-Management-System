@@ -106,5 +106,5 @@ During the development of Finance Tracker, I gained valuable experience in sever
 By working on Finance Tracker, I not only enhanced my technical skills but also gained valuable insights into the process of developing a real-world web application from concept to completion.
    
 <hr/>   
-
+  
 
