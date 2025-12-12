@@ -38,7 +38,7 @@ Here are some key features of **Finance Tracker** -
    
 Follow these steps to set up Finance Tracker on your local machine:
 
-### Prerequisites
+### Prerequisites  
   
 - Node.js and npm installed on your machine
 - MongoDB installed and running locally or accessible via a cloud service  
