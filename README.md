@@ -68,7 +68,7 @@ JWT_SECRET_KEY=your_secret_key_here
 NODE_ENV=development
 ENCRYPTION_SALT=10
 EMAIL_USER=your_email@example.com
-EMAIL_PASS=your_email_app_password_here   
+EMAIL_PASS=your_email_app_password_here    
 ```
 
 ### Setup
