@@ -95,7 +95,7 @@ During the development of Finance Tracker, I gained valuable experience in sever
 
 - **Full-Stack Development** 💻: I learned how to develop both frontend and backend components of a web application, enabling me to create a seamless user experience from start to finish.
 - **React.js** ⚛️: I honed my skills in React.js, leveraging its component-based architecture to build dynamic and interactive user interfaces.
-- **Node.js and Express.js** 🚀: I became proficient in using Node.js and Express.js to create a scalable and efficient backend server, handling authentication, data storage, and API endpoints.
+- **Node.js and Express.js** 🚀: I became proficient in using Node.js and Express.js to create a scalable and efficient backend server, handling authentication, data storage, and API endpoints.  
 - **MongoDB and Mongoose** 🍃: I learned how to work with MongoDB, a NoSQL database, and Mongoose, an object modeling tool, to store and manage data for Finance Tracker.
 - **User Authentication** 🔒: I implemented secure user authentication using JWT (JSON Web Tokens), ensuring that user data remains protected and accessible only to authorized users.
 - **State Management** 🔄: I utilized Redux for state management in the frontend, enabling efficient data flow and ensuring consistency across the application.
