@@ -40,7 +40,7 @@ Follow these steps to set up Finance Tracker on your local machine:
 
 ### Prerequisites  
   
-- Node.js and npm installed on your machine
+- Node.js and npm installed on your machine 
 - MongoDB installed and running locally or accessible via a cloud service  
 - Git installed on your machine
    
