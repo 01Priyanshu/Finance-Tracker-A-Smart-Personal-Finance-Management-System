@@ -58,7 +58,7 @@ Create a `.env` file based of `env.example` in the backend directory and save it
 cd backend  
 ```
 
-#### Example .env file  
+#### Example .env file   
       
 ```bash
 # .env.example
