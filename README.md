@@ -45,7 +45,7 @@ Follow these steps to set up Finance Tracker on your local machine:
 - Git installed on your machine
    
 ### Clone the repository:  
-
+ 
 ```bash  
 git clone https://github.com/01Priyanshu/Finance-Tracker-A-Smart-Personal-Finance-Management-System.git
 ```  
