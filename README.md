@@ -29,7 +29,7 @@ Here are some key features of **Finance Tracker** -
 - **Expense Tracking**: Easily categorize and monitor your expenses. 
 - **Income Management**: Seamlessly add and track your income sources.   
 - **Secure Authentication**: Protect your account with robust authentication. 
-- **Insightful Reports**: Gain valuable insights into your financial health.
+- **Insightful Reports**: Gain valuable insights into your financial health. 
 - **Personalized Budgeting**: Set and track customized spending limits.      
 
 <hr/>
