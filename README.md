@@ -50,7 +50,7 @@ Follow these steps to set up Finance Tracker on your local machine:
 git clone https://github.com/01Priyanshu/Finance-Tracker-A-Smart-Personal-Finance-Management-System.git
 ```  
 
-### Make the .env file in backend directory           
+### Make the .env file in backend directory            
 
 Create a `.env` file based of `env.example` in the backend directory and save it as .env. 
    
