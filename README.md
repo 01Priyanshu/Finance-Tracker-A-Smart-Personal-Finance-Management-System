@@ -24,7 +24,7 @@ Finance Tracker is your go-to platform for effortless financial management. Trac
 
 ## Features
 
-Here are some key features of **Finance Tracker** - 
+Here are some key features of **Finance Tracker** -  
 
 - **Expense Tracking**: Easily categorize and monitor your expenses. 
 - **Income Management**: Seamlessly add and track your income sources.   
