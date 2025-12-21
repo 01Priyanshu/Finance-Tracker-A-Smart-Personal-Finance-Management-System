@@ -36,7 +36,7 @@ Here are some key features of **Finance Tracker** -
 
 ## Installation
     
-Follow these steps to set up Finance Tracker on your local machine:   
+Follow these steps to set up Finance Tracker on your local machine:    
 
 ### Prerequisites   
    
