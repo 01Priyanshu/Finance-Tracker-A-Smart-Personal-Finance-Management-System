@@ -44,7 +44,7 @@ Follow these steps to set up Finance Tracker on your local machine:
 - MongoDB installed and running locally or accessible via a cloud service  
 - Git installed on your machine
    
-### Clone the repository:  
+### Clone the repository: 
  
 ```bash  
 git clone https://github.com/01Priyanshu/Finance-Tracker-A-Smart-Personal-Finance-Management-System.git
