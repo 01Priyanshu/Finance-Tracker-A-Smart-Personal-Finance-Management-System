@@ -3,7 +3,7 @@
 </p>   
 <h1 align="center">Finance Tracker - Effortless Financial Management</h1>       
 <h2 align="center">       
-  <a href="https://finance-tracker-dev.vercel.app/">Explore the Project Live!</a>  
+  <a href="https://finance-tracker-dev.vercel.app/">Explore the Project Live!</a>   
 </h2>  
         
 <hr/>                 
