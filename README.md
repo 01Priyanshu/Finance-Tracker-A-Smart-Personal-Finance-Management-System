@@ -1,4 +1,4 @@
-<p align="center"> 
+<p align="center">
   <img src="frontend/public/logo.webp" width="100" />        
 </p> 
 <h1 align="center">Finance Tracker - Effortless Financial Management</h1>       
