@@ -11,7 +11,7 @@ Finance Tracker is your go-to platform for effortless financial management. Trac
 <hr/>       
 ## Table of Contents   
 
-- [Features](#features) 
+- [Features](#features)  
 - [Installation](#installation)         
 - [Experience](#experience)   
 - [License](#license)
